@@ -1,4 +1,4 @@
-package com.a.identity.search;
+package c.a.i.search;
 /**
  * Created with IntelliJ IDEA.
  * User: aminerounak
@@ -7,8 +7,8 @@ package com.a.identity.search;
  * To change this template use File | Settings | File Templates.
  */
 
-import com.a.identity.util.HttpApiCall;
-import com.a.interfaces.user.user_service_search_types.v2.SearchOperator;
+import c.a.i.util.HttpApiCall;
+import c.a.interfaces.user.user_service_search_types.v2.SearchOperator;
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
@@ -37,7 +37,7 @@ public class ElasticSearchHTTPClient<T extends Indexable> implements Search<T> {
         }
     }
 
-    private static final String SEARCH_PROPS_NS = "com.a.search.es.";
+    private static final String SEARCH_PROPS_NS = "c.a.search.es.";
 
     public static final String SEARCH_PROPS_IDX_NAME = SEARCH_PROPS_NS + "index.name";
     public static final String SEARCH_PROPS_TYPE_NAME = SEARCH_PROPS_NS + "type.name";

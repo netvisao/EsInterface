@@ -1,4 +1,4 @@
-package com.a.identity.search;
+package c.a.i.search;
 
 import com.google.api.client.util.Data;
 import org.slf4j.Logger;

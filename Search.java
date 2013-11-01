@@ -1,7 +1,7 @@
-package com.a.identity.search;
+package c.a.i.search;
 
 
-import com.a.interfaces.user.user_service_search_types.v2.SearchOperator;
+import c.a.interfaces.user.user_service_search_types.v2.SearchOperator;
 
 import java.util.List;
 import java.util.Map;

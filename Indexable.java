@@ -1,4 +1,4 @@
-package com.a.identity.search;
+package c.a.i.search;
 
 import java.util.Map;
 
