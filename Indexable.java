@@ -1,4 +1,4 @@
-package com.aol.identity.search;
+package com.a.identity.search;
 
 import java.util.Map;
 

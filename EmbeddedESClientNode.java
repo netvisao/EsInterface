@@ -1,6 +1,6 @@
-package com.aol.identity.search;
+package com.a.identity.search;
 
-import com.aol.interfaces.user.user_service_search_types.v2.SearchOperator;
+import com.a.interfaces.user.user_service_search_types.v2.SearchOperator;
 import org.apache.commons.io.FileUtils;
 import org.elasticsearch.ElasticSearchException;
 import org.elasticsearch.ElasticSearchTimeoutException;
@@ -63,7 +63,7 @@ public final class EmbeddedESClientNode<T extends Indexable> implements Closeabl
 
 	private static final String SEARCH_DEFAULT_IDX_NAME         = "index";
 	private static final String SEARCH_DEFAULT_TYPE_NAME        = "gentype";
-	private static final String SEARCH_PROPS_NS                 = "com.aol.search.es.";
+	private static final String SEARCH_PROPS_NS                 = "com.a.search.es.";
 	private static final String SEARCH_PROPS_CFG_PATH           = "path.conf";
 	private static final String SEARCH_PROPS_IDX_NAME           = "index.name";
 	private static final String SEARCH_PROPS_TYPE_NAME          = "type.name";

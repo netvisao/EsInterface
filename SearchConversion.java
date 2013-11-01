@@ -1,4 +1,4 @@
-package com.aol.identity.search;
+package com.a.identity.search;
 
 import com.google.api.client.util.Data;
 import org.slf4j.Logger;

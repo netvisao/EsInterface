@@ -1,7 +1,7 @@
-package com.aol.identity.search;
+package com.a.identity.search;
 
 
-import com.aol.interfaces.user.user_service_search_types.v2.SearchOperator;
+import com.a.interfaces.user.user_service_search_types.v2.SearchOperator;
 
 import java.util.List;
 import java.util.Map;
